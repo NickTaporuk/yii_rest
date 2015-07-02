@@ -12,7 +12,7 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
-    
+
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -33,14 +33,13 @@ return array(
 
 	// application components
 	'components'=>array(
-
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
 
 		// uncomment the following to enable URLs in path-format
-		/*
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -49,7 +48,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
+
 
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
